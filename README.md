@@ -1,4 +1,4 @@
-# Keylogger
+# Keylogger && MouseLogger
 
 This is a simple keylogger written in C++ that logs keystrokes to a file.
 
