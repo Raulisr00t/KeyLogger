@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
         cout << "[!] Error: " << GetLastError() << endl;
         return 1;
     }
-    WaitForSingleObject(hThread, 10000);
+    WaitForSingleObject(hThread, 10000); // if you want increase seconds configure 10000
 
     if (g_hMouseHook && !UnhookWindowsHookEx(g_hMouseHook)) {
         cout << "[!] UnhookWindowsHookEx Failed With Error: " << GetLastError() << endl;
